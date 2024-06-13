@@ -1,16 +1,16 @@
-import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./index.css";
-import Apie_mus from "./routes/Apie_mus";
+import React from "react";
+// import "./index.css";
+import Apiemus from "./routes/Apiemus";
 import Kainos from "./routes/Kainos";
 import Kryptys from "./routes/Kryptys";
 import Susisiekite from "./routes/Susisiekite";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/Apiemus" element={<Apie_mus />} />
+        <Route path="/" element={<Apiemus />} />
         <Route path="/Kainos" element={<Kainos />} />
         <Route path="/Kryptys" element={<Kryptys />} />
         <Route path="/Susisiekite" element={<Susisiekite />} />
