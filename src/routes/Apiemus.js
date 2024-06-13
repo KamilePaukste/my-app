@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
-function Apiemus() {
-  return <div>Apie mus</div>;
-}
+const Apiemus = () => {
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
 export default Apiemus;
