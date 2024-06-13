@@ -1,7 +1,7 @@
 import React from "react";
 
 function Kryptys() {
-  return <div>Apie mus</div>;
+  return <div>Kryptys</div>;
 }
 
 export default Kryptys;

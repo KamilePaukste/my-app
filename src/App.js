@@ -1,5 +1,5 @@
 import React from "react";
-// import "./index.css";
+import "./index.css";
 import Apiemus from "./routes/Apiemus";
 import Kainos from "./routes/Kainos";
 import Kryptys from "./routes/Kryptys";
