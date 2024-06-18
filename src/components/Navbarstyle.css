@@ -13,3 +13,27 @@
 .navmenu li {
   padding: 1rem;
 }
+
+.hamburgermenu {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .navmenu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(72, 83, 66, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+  }
+  .navmenu li {
+    padding: 1rem 0;
+  }
+  .hamburgermenu {
+    display: initial;
+  }
+}
