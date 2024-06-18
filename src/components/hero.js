@@ -13,7 +13,7 @@ const Hero = () => {
         <p>
           Crave new adventures, mystical experiences and relaxinkg beaches? You
           need to travel. We make sure that you'll get an experience you'll
-          never forget.{" "}
+          never forget.
         </p>
         <div Link to="/Kryptys" className="button">
           DIRECTIONS
