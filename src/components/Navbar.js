@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { FaBars, FaTimes } from "react-icons/fa";
+import { IoEarthOutline } from "react-icons/io5";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -22,7 +23,9 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>Travel guide</h1>
+        <h1>
+          Travel guide <IoEarthOutline />
+        </h1>
       </Link>
       <ul class={click ? "navmenu active" : "navmenu"}>
         <li>

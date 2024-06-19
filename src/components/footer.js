@@ -9,21 +9,20 @@ const Footer = () => {
     <div className="footer">
       <div className="footerContent">
         <div className="contactInfo">
-          <p>
-            <FaPhone />
-            Phone number: +370 1111111
-          </p>
-          <p>
-            <MdAlternateEmail />
-            Email: info@travelguide.com
-          </p>
-          <p>
-            <IoLocation />
-            Address: K. Donelaičio g. 62, V. Putvinskio g. 53, 44248 Kaunas
-          </p>
+          <h3>CONTACT US:</h3>
+          <div>
+            <FaPhone /> Phone number: +370 1111111
+          </div>
+          <div>
+            <MdAlternateEmail /> Email: info@travelguide.com
+          </div>
+          <div>
+            <IoLocation /> Address: K. Donelaičio g. 62, V. Putvinskio g. 53,
+            44248 Kaunas
+          </div>
         </div>
-        <div className="socailMedia">
-          <p>FOLLOW US:</p>
+        <div className="socialMedia">
+          <h3>FOLLOW US:</h3>
           <div>
             <a href="https://www.instagram.com/">
               <FaInstagram /> Instagram
@@ -36,8 +35,7 @@ const Footer = () => {
           </div>
           <div>
             <a href="https://www.pinterest.com/">
-              <FaPinterest />
-              Pinterest
+              <FaPinterest /> Pinterest
             </a>
           </div>
         </div>
