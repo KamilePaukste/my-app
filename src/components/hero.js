@@ -8,8 +8,8 @@ const Hero = () => {
         <img className="firstimage" src={bali} alt="sea with mountains" />
       </div>
       <div className="content">
-        <p>IT'S TIME TO</p>
-        <p>VISIT THE WORLD</p>
+        <h2>IT'S TIME TO</h2>
+        <h3>VISIT THE WORLD</h3>
         <p>
           Crave new adventures, mystical experiences and relaxinkg beaches? You
           need to travel. We make sure that you'll get an experience you'll

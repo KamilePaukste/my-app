@@ -11,7 +11,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #485342;
   opacity: 0.5;
 }
 
@@ -28,10 +28,21 @@
   width: 100%;
 }
 
-.hero .content {
+.content {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   text-align: center;
+}
+.content h2 {
+  font-size: 1.4rem;
+  color: white;
+}
+.content h3 {
+  font-size: 6rem;
+  color: white;
+}
+.content p {
+  padding-bottom: 0.5rem;
 }
